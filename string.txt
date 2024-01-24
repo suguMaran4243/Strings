@@ -1,0 +1,8 @@
+String -- is used to represent and manipulate a sequence of characters.
+length --is used to find the length of the string.
+at --It takes interger value and return the character present in that value.
+It can take negative as well and if we give index out of bound it says undefined.
+
+charAt()--It takes only positive value.If we give value out of bound it wont print anything.
+
+charCodeAt() method of String values returns an integer between 0 and 65535 representing the UTF-16 code unit at the given index.
