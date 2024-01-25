@@ -6,3 +6,42 @@ It can take negative as well and if we give index out of bound it says undefined
 charAt()--It takes only positive value.If we give value out of bound it wont print anything.
 
 charCodeAt() method of String values returns an integer between 0 and 65535 representing the UTF-16 code unit at the given index.
+
+concat()-This method is used to concate two strings.
+
+endsWith()-method of String values determines whether a string ends with the characters of this string, returning true or false as appropriate.
+
+fromCharCode()-static method returns a string created from the specified sequence of UTF-16 code units.
+
+fromCodePoint - static method returns a string created from the specified sequence of code points.
+
+includes()-values performs a case-sensitive search to determine whether a given string may be found within this string, returning true or false as appropriate.
+
+indexOf()--method of String values searches this string and returns the index of the first occurrence of the specified substring.
+
+lastIndexOf() -The lastIndexOf() method of String values searches this string and returns the index of the last occurrence of the specified substring.
+
+localeCompare()-method of String values returns a number indicating whether this string comes before, or after, or is the same as the given string in sort order.
+
+match()--method of String values retrieves the result of matching this string against a regular expression.
+
+//padEnd()-method of String values pads this string with a given string (repeated, if needed) so that the resulting string reaches a given length. The padding is applied from the end of this string.
+
+//padStart ()It pads from front of words.
+
+repeat()-The repeat() method of String values constructs and returns a new string which contains the specified number of copies of this string, concatenated together.
+
+replace() -The replace() method of String values returns a new string with one, some, or all matches of a pattern replaced by a replacement.(Only the first occurence).
+
+replaceAll() -It replace the word in full sentence itself.
+
+search() -earch() method of String values executes a search for a match between a regular expression and this string, returning the index of the first match in the string.
+
+slice()-values extracts a section of this string and returns it as a new string, without modifying the original string.
+
+split()-values takes a pattern and divides this string into an ordered list of substrings by searching for the pattern, puts these substrings into an array, and returns the array.
+
+startsWith() -values determines whether this string begins with the characters of a specified string, returning true or false as appropriate.
+
+substring() -values returns the part of this string from the start index up to and excluding the end index, or to the end of the string if no end index is supplied.
+
